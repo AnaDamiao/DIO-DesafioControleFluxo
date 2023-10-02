@@ -29,7 +29,7 @@ public class Contador {
 }
 //Classe exceção
 class ParametrosInvalidosException extends Exception {
-    public ParametrosInvalidosException(String mensagemExecao) {
-        super(mensagemExecao);
+    public ParametrosInvalidosException(String mensagemExcecao) {
+        super(mensagemExcecao);
     }
 }
